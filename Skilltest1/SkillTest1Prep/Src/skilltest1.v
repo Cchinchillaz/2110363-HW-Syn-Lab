@@ -11,7 +11,7 @@ module skilltest1 (
 );
     reg [14:0] bcd;
     reg[3:0] bcd0,bcd1,bcd2,bcd3;
-    reg[16:0] Counter;
+    reg[10:0] Counter;
     assign BCD0 = bcd0;
     assign BCD1 = bcd1;
     assign BCD2 = bcd2;
